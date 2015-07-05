@@ -2,20 +2,27 @@
 public class Car {
     private double milesDriven;
     private double gasInTank;
+    private double milesPerGallon;
+
+    public Car (double mpg) {
+        this.milesDriven = 0;
+        this.gasInTank = 0;
+        this.milesPerGallon = mpg;
+    }
 
     public void addGas (double amount) {
-        gasInTank = gasInTank + amount;
+        this.gasInTank += amount;
     }
     public void drive (double distance) {
-        milesDriven = milesDriven + distance;
+        this.milesDriven += distance;
         double milesPerGallon = 50;
         double gasConsumed = distance / milesPerGallon;
-        gasInTank = gasInTank - gasConsumed;
+        this.gasInTank -= gasConsumed;
     }
     public double getMilesDriven() {
-        return milesDriven;
+        return this.milesDriven;
     }
     public double getGasInTank() {
-        return gasInTank;
+        return this.gasInTank;
     }
 }

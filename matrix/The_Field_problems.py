@@ -76,7 +76,7 @@ Be sure your procedure works for the empty list.
     '''
     current = 0
     for x in L:
-      current = current + x
+        current = current + x
     return current
 
 
@@ -97,7 +97,7 @@ Be sure your procedure works for the empty list.
     '''
     current = 1 if L else 0
     for x in L:
-      current = current * x
+        current = current * x
     return current
 
 
@@ -119,7 +119,7 @@ Hint: The value of the Python expression float('infinity') is infinity.
     '''
     current = float('infinity')
     for x in L:
-      current = x if x < current else current
+        current = x if x < current else current
     return current
 
 
@@ -138,9 +138,9 @@ Be sure your procedure works for the empty list.
     >>> myConcat(['what','is','up'])
     'whatisup'
     '''
-    current =
+    current = ""
     for x in L:
-      current = 
+        current = current + x
     return current
 
 
@@ -159,14 +159,17 @@ Be sure your procedure works for the empty list.
     >>> myUnion([set(),{3,5},{3,5}])
     {3, 5}
     '''
-    pass
+    current = set()
+    for x in L:
+        current = current.union(x)
+    return current
 
 
 
 ## 9: (Problem 9) Complex Addition Practice
 # Each answer should be a Python expression whose value is a complex number.
 
-complex_addition_a = ...
+complex_addition_a = 5 + 3j
 complex_addition_b = ...
 complex_addition_c = ...
 complex_addition_d = ...

@@ -1,7 +1,7 @@
 CC 			= mcs
+SRC_DIR		= ./srcs/
 TARGET		= Hello.exe \
 			  MethodOverridingHiding.exe
-SRC_DIR		= ./srcs/
 
 all: $(TARGET)
 

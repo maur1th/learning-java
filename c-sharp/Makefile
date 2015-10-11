@@ -2,7 +2,8 @@ CC 			= mcs
 SRC_DIR		= ./srcs/
 TARGETS		= Hello.exe \
 			  MethodParameters.exe \
-			  MethodOverridingHiding.exe
+			  MethodOverridingHiding.exe \
+			  MethodOverloading.exe
 
 all: $(TARGETS)
 

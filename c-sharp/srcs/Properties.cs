@@ -56,8 +56,9 @@ public class Properties
 		var C1 = new Student();
 		C1.Id = 101;
 		C1.Name = "Thomas";
+		C1.Email = "student@example.com";
 
-		Console.WriteLine("ID: {0}, Name: {1}, PassMark: {2}",
-			C1.Id, C1.Name, C1.PassMark);
+		Console.WriteLine("ID: {0}, Name: {1}, PassMark: {2}, Email: {3}",
+			C1.Id, C1.Name, C1.PassMark, C1.Email);
 	}
 }

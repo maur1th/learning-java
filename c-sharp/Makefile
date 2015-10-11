@@ -3,6 +3,7 @@ SRC_DIR		= ./srcs/
 TARGETS		= Hello.exe \
 			  MethodParameters.exe \
 			  Namespaces.exe \
+			  StaticInstance.exe \
 			  MethodOverridingHiding.exe \
 			  MethodOverloading.exe
 

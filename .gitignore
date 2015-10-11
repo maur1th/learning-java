@@ -1,7 +1,11 @@
 *~
 *.swp
+
+# python stuff
 *.class
 material/
 __pycache__/
 *.py[cod]
-Polymorphism.exe
+
+# c sharp stuff
+*.exe

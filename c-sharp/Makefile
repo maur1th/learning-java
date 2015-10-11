@@ -10,6 +10,7 @@ TARGETS		= Hello.exe \
 			  MethodOverloading.exe \
 			  Properties.exe \
 			  FactoryPattern.exe \
+			  CompositePattern.exe \
 			  StrategyPattern.exe
 
 all: $(TARGETS)

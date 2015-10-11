@@ -8,7 +8,8 @@ TARGETS		= Hello.exe \
 			  Polymorphism.exe \
 			  MethodOverridingHiding.exe \
 			  MethodOverloading.exe \
-			  Properties.exe
+			  Properties.exe \
+			  StrategyPattern.exe
 
 all: $(TARGETS)
 

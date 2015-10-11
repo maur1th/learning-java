@@ -4,6 +4,7 @@ TARGETS		= Hello.exe \
 			  MethodParameters.exe \
 			  Namespaces.exe \
 			  StaticInstance.exe \
+			  Inheritance.exe \
 			  MethodOverridingHiding.exe \
 			  MethodOverloading.exe
 

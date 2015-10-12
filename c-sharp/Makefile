@@ -11,7 +11,8 @@ TARGETS		= Hello.exe \
 			  Properties.exe \
 			  FactoryPattern.exe \
 			  CompositePattern.exe \
-			  StrategyPattern.exe
+			  StrategyPattern.exe \
+			  LeapYear.exe
 
 all: $(TARGETS)
 

@@ -9,6 +9,7 @@ TARGETS		= Hello.exe \
 			  MethodOverridingHiding.exe \
 			  MethodOverloading.exe \
 			  Properties.exe \
+			  Delegates.exe \
 			  FactoryPattern.exe \
 			  CompositePattern.exe \
 			  StrategyPattern.exe \

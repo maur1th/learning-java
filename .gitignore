@@ -8,5 +8,8 @@ material/
 __pycache__/
 *.py[cod]
 
+# nodejs
+.idea/
+
 # c sharp stuff
 *.exe

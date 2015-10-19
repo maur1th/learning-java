@@ -1,12 +1,9 @@
-var sum = function () {
-    var result = 0;
-    return function (n) {
-        result += +n;
-        return (result);
-    };
-}();
+/*jslint node*/
+"use strict";
+var sum = process.argv.reduce(function (prev, curr, idx) {
+    return idx > 1
+        ? prev + +curr
+        : 0;
+});
 
-for (var i = 2; i < process.argv.length; i++ ) {
-    var result = sum(process.argv[i]);
-}
-console.log(result);
+console.log(sum);

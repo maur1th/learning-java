@@ -15,7 +15,7 @@ process.argv.forEach(function (url, idx) {
         res.on('end', function () {
             cbCount += 1;
             results[idx] = tmp.toString();
-            if(cbCount == 3) {
+            if (cbCount === 3) {
                 results.forEach(function (s) {
                     console.log(s);
                 });

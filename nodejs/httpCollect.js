@@ -24,5 +24,6 @@ http.get(process.argv[2], function (res) {
         console.log("## Without bl ##");
         console.log(s.length);
         console.log(s);
-    })
+    });
+    res.on('error', console.log);
 });

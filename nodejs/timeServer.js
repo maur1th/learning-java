@@ -1,5 +1,5 @@
-/*jslint es6, node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 let net = require('net');
 let strftime = require('strftime');
 net.createServer(function (socket) {

@@ -1,5 +1,5 @@
-/*jslint es6, node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 const http = require('http');
 const bl = require('bl');
 
@@ -10,18 +10,18 @@ http.get(process.argv[2], function (res) {
         if (err) {
             throw err;
         }
-        console.log("## Using bl ##");
+        console.log('## Using bl ##');
         data = data.toString();
         console.log(data.length);
         console.log(data);
     }));
     // Without bl
-    var s = "";
+    var s = '';
     res.on('data', function (chunk) {
         s += chunk;
     });
     res.on('end', function () {
-        console.log("## Without bl ##");
+        console.log('## Without bl ##');
         console.log(s.length);
         console.log(s);
     });

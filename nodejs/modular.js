@@ -1,5 +1,5 @@
-/*jslint node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 var dir = process.argv[2];
 var ext = process.argv[3];
 var mymodule = require('./mymodule.js');

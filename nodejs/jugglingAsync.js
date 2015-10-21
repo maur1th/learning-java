@@ -1,5 +1,5 @@
-/*jslint es6, node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 let http = require('http');
 let results = [];
 let cbCount = 0;
@@ -8,7 +8,7 @@ process.argv.forEach(function (url, idx) {
         return;
     }
     http.get(url, function (res) {
-        let tmp = "";
+        let tmp = '';
         res.on('data', function (chunk) {
             tmp += chunk;
         });

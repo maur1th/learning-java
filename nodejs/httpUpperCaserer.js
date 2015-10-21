@@ -1,11 +1,11 @@
-/*jslint es6, node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 const http = require('http');
 http.createServer(function (req, res) {
     if (req.method !== 'POST') {
         return;
     }
-    let s = "";
+    let s = '';
     req.setEncoding('utf-8');
     req.on('data', function (chunk) {
         s += chunk.toUpperCase();

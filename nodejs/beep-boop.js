@@ -1,3 +1,3 @@
-/*jslint es6, node*/
-"use strict";
-console.log("beep boop");
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
+console.log('beep boop');

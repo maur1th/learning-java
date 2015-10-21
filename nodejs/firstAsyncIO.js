@@ -1,5 +1,5 @@
-/*jslint node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 var fs = require('fs');
 fs.readFile(process.argv[2], function (err, data) {
     if (err) {

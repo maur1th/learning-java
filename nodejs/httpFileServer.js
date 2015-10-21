@@ -1,5 +1,5 @@
-/*jslint es6, node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 const http = require('http');
 const fs = require('fs');
 http.createServer(function (ignore, res) {

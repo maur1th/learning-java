@@ -1,5 +1,5 @@
-/*jslint node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 var fs = require('fs');
 var path = require('path');
 var dir = process.argv[2];

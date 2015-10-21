@@ -1,5 +1,5 @@
-/*jslint node*/
-"use strict";
+/*jslint es6, node*/ // jshint ignore:line
+'use strict';
 var fs = require('fs');
 var path = require('path');
 module.exports = function (dir, ext, callback) {

@@ -13,3 +13,4 @@ __pycache__/
 
 # c sharp stuff
 *.exe
+node_modules
